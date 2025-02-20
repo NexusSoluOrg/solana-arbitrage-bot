@@ -1,6 +1,6 @@
-# Solana MEV Bot
+# Solana Arbitrage Bot
 
-Welcome to the **Solana MEV Bot**! This Rust-based bot is designed for executing Maximal Extractable Value (MEV) strategies on the Solana blockchain.
+Welcome to the **Solana Arbitrage Bot**! This Rust-based bot is designed for executing Maximal Extractable Value (MEV) strategies on the Solana blockchain.
 
 ## Features
 - **High-Speed Transactions**: Leverage Solana's low-latency network.
