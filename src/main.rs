@@ -97,12 +97,8 @@ async fn main() -> Result<()> {
             // When we have more than 3 tokens it's better to desactivate caused by timeout on multiples getProgramAccounts calls
             get_fresh_pools_bool: false
         },
-        //////////////
-        //////////////
-        //////////////
-        //////////////
-        //////////////
-        //////////////
+
+        
         InputVec{
             tokens_to_arb: vec![
                 TokenInArb{address: String::from("So11111111111111111111111111111111111111112"), symbol: String::from("SOL")}, // Base token here
@@ -133,8 +129,8 @@ async fn main() -> Result<()> {
     setup_logger().unwrap();
 
     info!("Starting MEV_Bot_Solana");
-    info!("⚠️⚠️ New fresh pools fetched on METEORA and RAYDIUM are excluded because a lot of time there have very low liquidity, potentially can be used on subscribe log strategy");
-    info!("⚠️⚠️ Liquidity is fetch to API and can be outdated on Radyium Pool");
+    info!("⚠️⚠️⚠️ New fresh pools fetched on METEORA and RAYDIUM are excluded because a lot of time there have very low liquidity, potentially can be used on subscribe log strategy");
+    info!("⚠️⚠️⚠️ Liquidity is fetch to API and can be outdated on Radyium Pool");
 
     let mut set: JoinSet<()> = JoinSet::new();
     
