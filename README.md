@@ -10,8 +10,8 @@ Welcome to the **Solana MEV Bot**! This Rust-based bot is designed for executing
 ## Getting Started
 1. **Clone the Repository**:
    ```bash
-   git clone  https://github.com/syed-nw/solana-arbitrage-bot.git
-   cd solana-mev-bot-optimized
+   git clone  https://github.com/NexusSoluOrg/solana-arbitrage-bot.git
+   cd solana-arbitrage-bot
 
 2. Install Dependencies:
 Ensure you have Rust and Cargo installed, then run:
